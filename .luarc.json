@@ -1,16 +1,8 @@
 {
-  "runtime.special": {
-    "love.filesystem.load": "loadfile"
-  },
   "workspace.library": [
     "${3rd}/love2d/library"
   ],
-    "diagnostics.globals": [
-        "gridXCount",
-        "gridYCount"
-    ],
-    "diagnostics.disable": [
-        "missing-fields",
-        "lowercase-global"
-    ]
+  "diagnostics.disable": [
+    "lowercase-global"
+  ]
 }
