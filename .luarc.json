@@ -4,5 +4,6 @@
   ],
   "diagnostics.disable": [
     "lowercase-global"
-  ]
+  ],
+  "completion.callSnippet": "Disable"
 }
