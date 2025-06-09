@@ -7,7 +7,7 @@
 local Object = {}
 Object.__index = Object
 
-function Object:new(...) end
+function Object:init(...) end
 
 function Object:extend()
   local cls = {}
@@ -49,7 +49,7 @@ end
 
 function Object:__call(...)
   local obj = setmetatable({}, self)
-  obj:new(...)
+  obj:init(...)
   return obj
 end
 
