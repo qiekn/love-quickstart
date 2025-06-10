@@ -1,4 +1,5 @@
--- Load some default values for our rectangle.
+package.path = "src/?.lua;" .. package.path
+
 function love.load()
   x, y, w, h = 20, 20, 60, 20
 end
