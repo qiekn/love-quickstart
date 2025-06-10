@@ -1,3 +1,5 @@
+package.path = "src/?.lua;" .. package.path
+
 function love.load()
   x, y, w, h = 30, 30, 60, 20
 end
